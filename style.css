@@ -2199,3 +2199,170 @@ body.opened .pohonmerah4-isi.keluar-scroll .pohon-masuk {
     font-size: 26px;
   }
 }
+
+/* =========================================
+   RESPONSIVE ORNAMEN - TABLET & HP
+========================================= */
+
+@media screen and (max-width: 600px) {
+
+  /* ===== POHON HITAM ===== */
+
+  .ornamen.pohonhitam1 {
+    width: 45%;
+    bottom: 60%;
+    right: 42%;
+  }
+
+  .ornamen.pohonhitam2 {
+    width: 45%;
+    bottom: 64%;
+    left: 42%;
+  }
+
+  .ornamen.pohonhitam3kiri {
+    width: 65%;
+    bottom: -15%;
+    right: 48%;
+  }
+
+  .ornamen.pohonhitam3kanan {
+    width: 65%;
+    bottom: -15%;
+    left: 43%;
+  }
+
+
+  /* ===== POHON MERAH ===== */
+
+  .ornamen.pohonmerah1 {
+    width: 55%;
+    bottom: 58%;
+    right: 55%;
+  }
+
+  .ornamen.pohonmerah2 {
+    width: 50%;
+    bottom: 53%;
+    left: 55%;
+  }
+
+  .ornamen.pohonmerah3 {
+    width: 65%;
+    top: 53%;
+    right: 35%;
+  }
+
+  .ornamen.pohonmerah4 {
+    width: 65%;
+    top: 53%;
+    left: 35%;
+  }
+
+
+  /* ===== POHON HITAM SECTION ISI ===== */
+
+  .ornamen.pohonhitam1-isi {
+    width: 45%;
+    bottom: 69%;
+    right: 42%;
+  }
+
+  .ornamen.pohonhitam2-isi {
+    width: 65%;
+    bottom: 53%;
+    left: 42%;
+  }
+
+  .ornamen.pohonhitam3kiri-isi {
+    width: 75%;
+    bottom: -10%;
+    right: 48%;
+  }
+
+  .ornamen.pohonhitam3kanan-isi {
+    width: 75%;
+    bottom: -12%;
+    left: 43%;
+  }
+
+
+  /* ===== POHON MERAH SECTION ISI ===== */
+
+  .ornamen.pohonmerah1-isi {
+    width: 60%;
+    bottom: 58%;
+    right: 55%;
+  }
+
+  .ornamen.pohonmerah2-isi {
+    width: 60%;
+    bottom: 53%;
+    left: 55%;
+  }
+
+  .ornamen.pohonmerah3-isi {
+    width: 65%;
+    top: 53%;
+    right: 35%;
+  }
+
+  .ornamen.pohonmerah4-isi {
+    width: 65%;
+    top: 53%;
+    left: 35%;
+  }
+
+}
+
+
+/* =========================================
+   RESPONSIVE HP KECIL
+========================================= */
+
+@media screen and (max-width: 380px) {
+
+  .ornamen.pohonhitam1,
+  .ornamen.pohonhitam1-isi {
+    width: 38%;
+  }
+
+  .ornamen.pohonhitam2 {
+    width: 38%;
+  }
+
+  .ornamen.pohonhitam2-isi {
+    width: 55%;
+  }
+
+  .ornamen.pohonhitam3kiri,
+  .ornamen.pohonhitam3kanan {
+    width: 55%;
+  }
+
+  .ornamen.pohonhitam3kiri-isi,
+  .ornamen.pohonhitam3kanan-isi {
+    width: 65%;
+  }
+
+  .ornamen.pohonmerah1,
+  .ornamen.pohonmerah2 {
+    width: 45%;
+  }
+
+  .ornamen.pohonmerah1-isi,
+  .ornamen.pohonmerah2-isi {
+    width: 50%;
+  }
+
+  .ornamen.pohonmerah3,
+  .ornamen.pohonmerah4 {
+    width: 55%;
+  }
+
+  .ornamen.pohonmerah3-isi,
+  .ornamen.pohonmerah4-isi {
+    width: 58%;
+  }
+
+}
