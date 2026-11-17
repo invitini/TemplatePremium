@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium 1 - invitini</title>
+
+    <!-- Font: Cormorant Garamond (judul) + Montserrat (teks) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+  <!-- ============================================================
+       FOTO KANAN (hanya tampil di desktop)
+       Gambarnya diatur di style.css pada bagian :root (--foto-samping)
+       ============================================================ -->
+  <div class="side-photo" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       PAGE 1 — COVER
+       Foto background diatur di style.css (--foto-cover)
+       ============================================================ -->
+  <section class="cover" id="cover">
+    <div class="cover-content">
+      <p class="cover-kecil">Dear,</p>
+      <!-- Nama tamu otomatis berubah jika link diberi ?to=Nama+Tamu -->
+      <h2 class="cover-tamu" id="guestName">Tamu Undangan</h2>
+
+      <p class="cover-youre">You're Invited</p>
+
+      <!-- ✏️ EDIT: tanggal acara (tampilan teks) -->
+      <p class="cover-tanggal">Rabu, 9 Januari 2030</p>
+
+      <p class="cover-kecil">The Wedding Celebration of</p>
+      <!-- ✏️ EDIT: nama mempelai -->
+      <h1 class="cover-nama">Tezzar &amp; Leni</h1>
+
+      <button type="button" class="btn-open" id="openBtn">✉ OPEN INVITATION</button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ISI UNDANGAN (PAGE 2 dst.)
+       ============================================================ -->
+  <main class="invitation">
+    <div class="background-kiri"></div>
+    <!-- ===== 1. PEMBUKA ===== -->
+    <section class="section opening" id="beranda" data-section>
+        <div class="background-isi">
+          <img 
+            src="images/background1.png" 
+            alt="" 
+            class="ornamen background">
+          
+          <div class="ornamen pohonhitam1 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon3.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam2 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohon2.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kiri ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kanan ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah1 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkiri.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah2 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkanan.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah3 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah4 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="label">
+            The Wedding Celebration of
+          </p>
+          <h1 class="judul">
+            Tezzar &amp; Leni
+          </h1>
+          <p class="tanggal">
+            Rabu, 9 Januari 2030
+          </p>
+        </div>
+    </section>
+
+    <section class="section kutipan" id="kutipan" data-section>
+      <div class="container">        
+          <p class="kutipan">
+            “Dan di antara tanda-tanda (kebesaran)-Nya 
+            ialah Dia menciptakan pasangan-pasangan 
+            untukmu dari jenismu sendiri, agar kamu 
+            cenderung dan merasa tenteram kepadanya, 
+            dan Dia menjadikan di antaramu rasa kasih 
+            dan sayang. Sungguh, pada yang demikian itu 
+            benar-benar terdapat tanda-tanda 
+            (kebesaran Allah) bagi kaum yang berpikir.”
+          </p>
+          <h4 class="surat">
+            QS. Ar-Rum: 21
+          </h4>
+      </div>
+    </section>
+
+    <section class="section opening" id="mempelai" data-section>
+      <div class="background-isi">
+        <img src="images/background1.png" alt="" class="ornamen background">
+
+          <div class="ornamen pohonhitam1 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon3.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam2 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohon2.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kiri ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kanan ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah1 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkiri.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah2 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkanan.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah3 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah4 ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+      </div>
+      
+      <!-- DATA MEMPELAI -->
+      <div class="container">
+        <article class="kartu reveal">
+          <div class="data-pria">
+            <img class="foto-arch" src="images/pria.jpg" alt="Foto Pengantin Pria">
+            
+            <div class="info-pria">
+              <h3 class="nama">Tezzar Helmy K A</h3>
+              <p class="teks-kecil">
+                Putra dari<br>
+                Bapak Budi Arjanto &amp; Ibu Dyah Nurchayati
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="kartu reveal">
+          <div class="data-wanita">
+            <img class="foto-arch" src="images/wanita.jpg" alt="Foto Pengantin Pria">
+            
+            <div class="info-wanita">
+              <h3 class="nama">Leni Agustinah</h3>
+              <p class="teks-kecil">
+                Putri dari<br>
+                Bapak Sutiyono Misno &amp; Ibu Adminah
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>    
+    </section>
+
+    <!-- ===== 3. SAVE THE DATE + COUNTDOWN ===== -->
+    <section class="section" id="tanggal">
+      <div class="container reveal">
+        <p class="label-countdown">Save The Date</p>
+        <h2 class="tanggal-countdown">Rabu, 9 Januari 2030</h2>
+        <div class="garis"></div>
+
+        <!-- Tanggal hitung mundur diatur di script.js (CONFIG.tanggalAcara) -->
+        <div class="countdown" id="countdown">
+          <div class="cd-box"><span id="cdHari">00</span><small>Hari</small></div>
+          <div class="cd-box"><span id="cdJam">00</span><small>Jam</small></div>
+          <div class="cd-box"><span id="cdMenit">00</span><small>Menit</small></div>
+          <div class="cd-box"><span id="cdDetik">00</span><small>Detik</small></div>
+        </div>
+
+        <div class="calendar-container">
+          <button type="button" id="addCalendarBtn" class="calendar-btn">
+            <span class="calendar-icon">
+            
+            </span>
+              SIMPAN TANGGAL
+          </button>
+        
+
+          <div id="calendarOptions" class="calendar-options">
+            <a id="googleCalendarBtn" href="#" target="_blank" rel="noopener noreferrer">
+              Google Calendar
+            </a>
+
+            <button type="button" id="downloadCalendarBtn">
+              Download Calendar (.ics)
+            </button>
+          </div>
+        
+          <p class="teks countdown-selesai" id="countdownSelesai" hidden>Hari bahagia kami telah tiba 🤍</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section opening" id="acara" data-section>
+      <div class="background-isi">
+        <img src="images/background1.png" alt="" class="ornamen background">
+          <div class="ornamen pohonhitam1-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon3.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam2-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohon2.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kiri-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonhitam3kanan-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img
+                src="images/pohon1.png"
+                alt=""
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah1-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkiri.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah2-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerahkanan.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah3-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+
+          <div class="ornamen pohonmerah4-isi ornamen-scroll">
+            <div class="pohon-masuk">
+              <img 
+                src="images/pohonmerah.png" 
+                alt="" 
+                class="pohon-goyang">
+            </div>
+          </div>
+      </div>
+
+      <div class="container acara-container">
+
+        <!-- Acara 1 -->
+        <article class="kartu-acara reveal">
+            <h3 class="kartu-judul">Akad Nikah</h3>
+            <p class="kartu-tanggal">Rabu, 9 Januari 2030</p>
+            <p class="kartu-jam">08.00 WIB – Selesai</p>
+
+            <p class="teks-kecil">
+                <strong>Masjid Jami' Nurul Huda Cengkudu</strong><br>
+                RT.04/RW.04, Cengkudu, Cirahab, Kec. Lumbir,
+                Kabupaten Banyumas, Jawa Tengah 53177
+            </p>
+
+            <a 
+              class="btn"
+              href="https://www.google.com/maps/search/?api=1&query=Masjid+Jami+Nurul+Huda+Cengkudu+Banyumas"
+              target="_blank"
+              rel="noopener noreferrer">
+                Lihat Lokasi
+            </a>
+        </article>
+
+        <!-- Acara 2 -->
+        <article class="kartu-acara reveal">
+            <h3 class="kartu-judul">Resepsi</h3>
+            <p class="kartu-tanggal">Rabu, 9 Januari 2030</p>
+            <p class="kartu-jam">11.00 – 14.00 WIB</p>
+
+            <p class="teks-kecil">
+                <strong>Kediaman Mempelai Wanita</strong><br>
+                RT.04/RW.04, Cengkudu, Cirahab, Kec. Lumbir,
+                Kabupaten Banyumas, Jawa Tengah 53177
+            </p>
+
+            <a
+              class="btn"
+              href="https://www.google.com/maps/search/?api=1&query=Masjid+Jami+Nurul+Huda+Cengkudu+Banyumas"
+              target="_blank"
+              rel="noopener noreferrer">
+                Lihat Lokasi
+            </a>
+        </article>
+    </div>
+    </section>
+
+    <!-- ===== 5. GALERI ===== -->
+    <section class="section" id="galeri" data-section>
+      <div class="container-galeri">
+        <div class="reveal">
+          <p class="label-galeri">Galeri</p>
+          <h2 class="judul-galeri">Momen Kami</h2>
+          <div class="garis"></div>
+        </div>
+
+        <!-- ✏️ EDIT: ganti alamat gambar di src. Boleh tambah/kurangi baris <img> -->
+        <div class="galeri reveal">
+          <img class="lebar" src="images/galeri1.jpg" alt="Foto galeri 1" loading="lazy">
+          <img src="images/galeri2.jpg" alt="Foto galeri 2" loading="lazy">
+          <img src="images/galeri3.jpg" alt="Foto galeri 3" loading="lazy">
+          <img src="images/galeri4.jpg" alt="Foto galeri 4" loading="lazy">
+          <img src="images/galeri5.jpg" alt="Foto galeri 5" loading="lazy">
+          <img class="lebar" src="images/galeri6.jpg" alt="Foto galeri 6" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section opening" id="hadiah" data-section>
+      <div class="background-isi">
+        <img src="images/background1.png" alt="" class="ornamen background">
+          <div class="ornamen pohonhitam1-isi">
+            <img 
+              src="images/pohon3.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam2-isi">
+            <img 
+              src="images/pohon2.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam3kiri-isi">
+            <img
+              src="images/pohon1.png"
+              alt=""
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam3kanan-isi">
+            <img
+              src="images/pohon1.png"
+              alt=""
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah1-isi">
+            <img 
+              src="images/pohonmerahkiri.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah2-isi">
+            <img 
+              src="images/pohonmerahkanan.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah3-isi">
+            <img 
+              src="images/pohonmerah.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah4-isi">
+            <img 
+              src="images/pohonmerah.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+      </div>
+
+      <div class="container hadiah-container">
+        <div class="container-judul reveal">
+            <p class="label-hadiah">Wedding Gift</p>
+            <h2 class="judul-hadiah">Hadiah Digital</h2>        
+        </div>
+
+        <div class="kartu-bank">
+        <!-- ✏️ EDIT: nama bank, nomor rekening, atas nama.
+             Nomor rekening harus ditulis sama di data-copy dan di dalam <strong> -->
+        <article class="kartu reveal">
+          <h3 class="kartu-judul">Bank BCA</h3>
+          <p class="rekening"><strong>0461813223</strong></p>
+          <p class="teks-kecil">a.n. Tezzar Helmy K A</p>
+          <button type="button" class="btn" data-copy="0461813223">Salin No. Rekening</button>
+        </article>
+
+        <article class="kartu reveal">
+          <h3 class="kartu-judul">Kirim Kado</h3>
+          <p class="rekening"><strong>RT.04/RW.04, Cengkudu, Cirahab, Kec. Lumbir,
+                Kabupaten Banyumas, Jawa Tengah 53177</strong></p>
+          <p class="teks-kecil">a.n. Leni Agustinah</p>
+          <button
+            type="button"
+            class="btn"
+            data-copy="RT.04/RW.04, Cengkudu, Cirahab, Kec. Lumbir, Kabupaten Banyumas, Jawa Tengah 53177">
+              Salin Alamat
+          </button>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. RSVP & UCAPAN ===== -->
+    <section class="section opening" id="ucapan" data-section>
+      <div class="background-isi">
+        <img src="images/background1.png" alt="" class="ornamen background">
+          <div class="ornamen pohonhitam1-isi">
+            <img 
+              src="images/pohon3.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam2-isi">
+            <img 
+              src="images/pohon2.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam3kiri-isi">
+            <img
+              src="images/pohon1.png"
+              alt=""
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonhitam3kanan-isi">
+            <img
+              src="images/pohon1.png"
+              alt=""
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah1-isi">
+            <img 
+              src="images/pohonmerahkiri.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah2-isi">
+            <img 
+              src="images/pohonmerahkanan.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah3-isi">
+            <img 
+              src="images/pohonmerah.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+
+          <div class="ornamen pohonmerah4-isi">
+            <img 
+              src="images/pohonmerah.png" 
+              alt="" 
+              class="pohon-goyang">
+          </div>
+      </div>
+      
+      <div class="container rsvp-container">
+        <div class="container-judul reveal">
+            <p class="label-rsvp">RSVP</p>
+            <h2 class="judul-rsvp">Konfirmasi Kehadiran</h2>        
+        </div>
+
+        <!-- Form ini akan membuka WhatsApp dengan pesan yang sudah terisi.
+             Nomor WhatsApp diatur di script.js (CONFIG.nomorWhatsApp) -->
+        <form class="form reveal" id="rsvpForm">
+          <label for="rsvpNama">Nama</label>
+          <input type="text" id="rsvpNama" placeholder="Nama Anda" required>
+
+          <label for="rsvpHadir">Kehadiran</label>
+          <select id="rsvpHadir" required>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+            <option value="Masih Ragu">Masih Ragu</option>
+          </select>
+
+          <label for="rsvpJumlah">Jumlah Tamu</label>
+          <select id="rsvpJumlah">
+            <option value="1">1 orang</option>
+            <option value="2">2 orang</option>
+            <option value="3">3 orang</option>
+            <option value="4">4 orang</option>
+          </select>
+
+          <label for="rsvpUcapan">Ucapan &amp; Doa</label>
+          <textarea id="rsvpUcapan" rows="4" placeholder="Tulis ucapan Anda..."></textarea>
+
+          <button type="submit" class="btn btn-isi">Kirim via WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-undangan">
+      <div class="footer-content">
+      
+      <div class="footer-nama">
+        <span>Tezzar</span>
+        <span class="footer-dan">&</span>
+        <span>Leni</span>
+      </div>
+      
+      <p class="footer-ucapan">
+        Sebuah awal dari Selamanya
+      </p>
+
+      <p class="footer-tanggal">
+        09 Januari 2030
+      </p>
+
+      <div class="footer-line"></div>
+
+      <p class="footer-logo">
+        invitini
+      </p>
+
+      <p class="footer-musik">
+        Song : 크러쉬 (Crush) – Beautiful
+      </p>
+
+      <p class="footer-credit">
+        © 2030. All Rights Reserved. Designed with ♥.
+      </p>
+
+    </div>
+  </footer>
+
+  </main>
+    <!-- Tombol musik (opsional). ✏️ EDIT: letakkan file lagu bernama music.mp3 di folder yang sama.
+       Jika file tidak ada, tombol musik otomatis disembunyikan. -->
+  <audio id="musik" src="music/wedding.mp3" loop preload="auto"></audio>
+  <button type="button" class="music-btn" id="musicBtn" aria-label="Putar atau jeda musik">♪</button>
+    <script src="script.js"></script>
+</body>
+</html>
